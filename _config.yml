@@ -1,6 +1,6 @@
 title: "Dongha's Blog"
 description: "동하의 기술 블로그입니다."
-theme: minima
+remote_theme: jekyll/minima
 author: 장동하
 email: alja34@naver.com
 url: "https://donghajang213.github.io"
