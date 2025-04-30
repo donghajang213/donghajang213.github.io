@@ -1,10 +1,36 @@
-<script src="https://giscus.app/client.js"
-        data-repo="donghajang213/donghajang213.github.io"
-        data-repo-id="YOUR_REPO_ID"
-        data-category="General"
-        data-category-id="YOUR_CATEGORY_ID"
-        data-mapping="pathname"
-        data-theme="light"
-        crossorigin="anonymous"
-        async>
-</script>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+</head>
+<body>
+  <main>
+    <h1>{{ page.title }}</h1>
+    <p><small>작성일: {{ page.date | date: "%Y-%m-%d" }}</small></p>
+    
+    {{ content }}
+
+    <hr>
+    <h2>💬 댓글</h2>
+    
+    <!-- Giscus Comments Start -->
+    <script src="https://giscus.app/client.js"
+      data-repo="donghajang213/donghajang213.github.io"
+      data-repo-id="R_kgDOOiCVsg"
+      data-category="Announcements"
+      data-category-id="DIC_kwDOOiCVss4CpnyS"
+      data-mapping="pathname"
+      data-strict="0"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="preferred_color_scheme"
+      data-lang="ko"
+      crossorigin="anonymous"
+      async>
+    </script>
+    <!-- Giscus Comments End -->
+  </main>
+</body>
+</html>
