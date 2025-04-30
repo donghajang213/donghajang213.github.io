@@ -2,6 +2,7 @@
 layout: post
 title: "첫 글 - 블로그 시작!"
 date: 2025-04-30
+tags: [GitHub, Jekyll, Markdown]
 ---
 
 이 블로그는 GitHub Pages + Jekyll로 만들어졌습니다.  
